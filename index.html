@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone || Made by Gladsy</title>
+    <script src="https://kit.fontawesome.com/27b4a72e12.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#"><img src="./logo.png" alt="Spotify" width= "34px">Spotify</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div id="songListContainer">
+        <div class="song">
+            <img src="playing1.gif" alt="" class="currentsoundGIF" id="00" >
+            <img alt="" width="50px" class="cover" height="50px" id="img0">
+            <div class="Names"></div>
+            <div class="songDuration">5:30 <i id="0" class="fas fa-play-circle allSongsAction currentPlayingMusic"></i></div>
+            
+        </div>
+        <div class="song">
+            <img src="playing1.gif" alt="" class="currentsoundGIF" id="01" >
+            <img alt="" width="50px" class="cover" height="50px" id="img1">
+            <span class="Names"></span>
+            <div class="songDuration">5:30 <i id="1" class="fas fa-play-circle allSongsAction"></i></div>
+            
+        </div>
+        <div class="song">
+            <img src="playing1.gif" alt="" class="currentsoundGIF" id="02" >
+            <img alt="" width="50px" class="cover" height="50px" id="img2">
+            <div class="Names"></div>
+            <div class="songDuration">5:30 <i id="2" class="fas fa-play-circle allSongsAction"></i></div>
+            
+        </div>
+        <div class="song">
+            <img src="playing1.gif" alt="" class="currentsoundGIF" id="03" >
+            <img alt="" width="50px" class="cover" height="50px" id="img3">
+            <div class="Names"></div>
+            <div class="songDuration">5:30 <i id="3" class="fas fa-play-circle allSongsAction"></i></div>
+            
+        </div>
+        <div class="song">
+            <img src="playing1.gif" alt="" class="currentsoundGIF" id="04" >
+            <img alt="" width="50px" class="cover" height="50px" id="img4">
+            <div class="Names"></div>
+            <div class="songDuration">5:30 <i id="4" class="fas fa-play-circle allSongsAction"></i></div>
+            
+        </div>
+        <div class="song">
+            <img src="playing1.gif" alt="" class="currentsoundGIF" id="05" >
+            <img alt="" width="50px" class="cover" height="50px" id="img5">
+            <div class="Names"></div>
+            <div class="songDuration">5:30 <i id="5" class="fas fa-play-circle allSongsAction"></i></div>
+            
+        </div>
+        <div class="song">
+            <img src="playing1.gif" alt="" class="currentsoundGIF" id="06" >
+            <img alt="" width="50px" class="cover" height="50px" id="img6">
+            <div class="Names"></div>
+            <div class="songDuration">5:30 <i id="6" class="fas fa-play-circle allSongsAction"></i></div>
+            
+        </div>
+        
+    </div>
+
+    <div id="player">
+        <input type="range" id="music-bar" value=0>
+        <div class="player-icons">
+            <i class="fas fa-step-backward" id="backward"></i>
+            <i class="fas fa-play-circle" id="play"></i>
+            <i class="fas fa-step-forward" id="forward"></i>
+        </div>
+        <div class="item">
+            <img src="playing.gif" alt="" id="gif">
+            <div class="mainSongName">Whatever it Takes - Imagins Dragons</div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
